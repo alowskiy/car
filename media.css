@@ -1,0 +1,319 @@
+@media (min-width:920px) and (max-width: 1000px){
+
+    .cards{
+        justify-content: space-between;
+    }
+    .carousel{
+           justify-content: space-between;
+    }
+}
+@media (max-width: 920px) {
+        .c_btn1{
+display: block;
+    }
+       .cards{
+       flex-direction: column;
+       width: 70%;
+       margin: 0 auto;
+       row-gap: 30px;
+    }
+    .cards>div{
+        width: 100%;
+    }
+    .cls_btns>button{
+        display: none;
+    }
+    select{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        height: 50px;
+        background: transparent;
+       text-align: center;
+        font-size: 16px;
+        color:#ffd843 ;
+        border: 1px #ffd843 solid;
+    }
+    option{
+        background: #000;
+        border: none;
+    }
+    option::selection{
+        background: #000;
+    }
+
+    .price_wash> .ttl_cont>h2:last-of-type {
+        margin-left: 0;
+    }
+    .cls_btns{
+        margin-top: 50px;
+    }
+    .fst_cl{
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .sev{
+      
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 70%;
+    }
+    .ln.l{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .chem>h2:last-of-type{
+        margin-left: 0;
+    }
+    .sec_cl{
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+
+.s_ttl>h2:last-of-type{
+    margin-left: 0;
+}
+.carousel, .c_btn2{
+    display: none;
+}
+.s_card{
+    width: 80%;
+    height: 80vh;
+    background-image: url(imgs/carousel/i1.png);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.slider{
+    display: block;
+}
+.map{
+    flex-direction: column-reverse;
+}
+}
+
+@media (max-width: 900px) {
+
+    nav{
+        display: none;
+    }
+    header>.reg{
+        display: none;
+    }
+    .mob_menu{
+        display: block;
+        padding-right: 2%;
+    }
+    .mob_menu>img{
+        width: 40px;
+        height: 40px;
+    }
+    .menu{
+        background: #f40000;
+        height: 500px !important;
+        width: 30vw;
+        z-index: 37;
+        position: absolute;
+        margin-top: 100px;
+        display: block;
+       margin-top: -150vh;
+         margin-left:75%;
+              transition: 1s;
+    }
+    .menu.opened{
+        
+        transition: 1s;
+        display: block;
+         margin-left:75%;;
+  z-index: 48;
+         overflow-y: hidden;
+         margin-top: 48%;
+          
+    }
+    .menu>ul{
+        margin-top: 0;
+        padding-top:50%;
+        list-style: none;
+    }
+   .locked{
+    overflow-y: hidden;
+   }
+    .menu>ul>li{
+        margin-top: 25px;
+ 
+    }
+
+     .menu>ul>li>a{
+       font-size: 20px;
+     }
+   .none{
+    display: none;
+   }
+
+  .introduc>h1{
+    font-size: 47px;
+    max-width: 65%;
+  }
+  .cards{
+    width: 85%;
+  }
+  .over{
+    display: none;
+position: absolute;
+z-index: 23;   
+background: black; 
+opacity: .3;
+height: 1000%;
+width: 100%;
+top: 0;
+  }
+  .oop{
+    display: block;
+    z-index: 1;
+  }
+  .map{
+    overflow-x: hidden;
+  }
+
+.intro{
+    background: url(imgs/gl_cuted.png);
+    max-width: 1900px;
+
+background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    width: 100%;
+}
+
+
+}
+
+
+@media (max-width: 860px) {
+
+
+
+.introduc {
+    padding-top:35vh;
+}
+h2{
+    font-size: 25px !important;
+}
+.introduc>h1{
+    font-size:5vw;
+}
+}
+
+@media (max-width: 600px) {
+    .ttl>p, .price_wash>p, .offer>p{
+        display: none;
+    }
+    .ttl_cont, .chem, .s_ttl{
+        display: flex;
+        align-items: center;
+        column-gap: 9px;
+    }
+    .ttl_cont>h2{
+        margin-top: 0 !important;
+    }
+    .introduc>h1{
+     line-height: 40px;
+    }
+
+.introduc{
+    padding-top: 30vh;
+}
+.Yamaps{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+.introduc>h1{
+    margin-top: 0;
+}
+}
+@media (max-width: 427px) {
+
+.menu>ul{
+    padding-top: 15vh;
+}
+
+iframe{
+    width: 100%;
+}
+.review>div>h3{
+    font-size: 16px;
+}
+.txt_cont>p, .sev>p, .txt_cont2>p{
+    font-size: 13px;
+}
+.introduc>h1{
+    line-height: 40px;
+}
+
+.intro{
+    height: 60vh !important;
+}
+.intro_car{
+    height: 60vh !important;
+}
+
+
+}
+@media (max-width: 710px) {
+.menu>ul{
+    padding-left: 0%;
+   
+}
+
+    .menu{
+        background: #f40000;
+        height:400px !important;
+        width: 40vw;
+        margin-left: 60%;
+    }  
+    .menu.opened{
+        margin-top: 40%;
+    }
+}
+
+
+
+
+
+@media (max-width:520px) {
+    .menu{
+        background: #f40000;
+        height:400px !important;
+        width: 35vw;
+        margin-left: 65%;
+    }  
+       .menu.opened{
+        margin-left: 65%;  
+}
+ .menu>ul>li>a{
+    font-size: 16px;
+ }
+ .chem>h2{
+    font-size: 25px !important;
+ }
+}
+
+@media (max-width:700px) {
+    .intro{
+        height: 70vh;
+    }
+    .introduc{
+        height: 70vh;
+        box-sizing: border-box;
+    }
+    .intro_car{
+        height: 70vh;
+    }
+}
